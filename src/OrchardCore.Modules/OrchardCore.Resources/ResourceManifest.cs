@@ -10,6 +10,7 @@ namespace OrchardCore.Resources
 
             manifest
                 .DefineScript("jQuery")
+                .SetUrl("/OrchardCore.Resources/Scripts/jquery-1.12.4.js", "/OrchardCore.Resources/Scripts/jquery-1.12.4.js")
                 .SetCdn("https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js", "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js")
                 .SetCdnIntegrity("sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ", "sha384-KcyRSlC9FQog/lJsT+QA8AUIFBgnwKM7bxm7/YaX+NTr4D00npYawrX0h+oXI3a2")
                 .SetVersion("1.12.4")
@@ -17,13 +18,15 @@ namespace OrchardCore.Resources
 
             manifest
                 .DefineScript("jQuery")
-                .SetCdn("https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js", "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js")
+                .SetUrl("/OrchardCore.Resources/Scripts/jquery-1.12.4.js", "/OrchardCore.Resources/Scripts/jquery-1.12.4.js")
+                .SetCdn("https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery-2.2.4.js", "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery-2.2.4")
                 .SetCdnIntegrity("sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB", "sha384-TlQc6091kl7Au04dPgLW7WK3iey+qO8dAi/LdwxaGBbszLxnizZ4xjPyNrEf+aQt")
                 .SetVersion("2.2.4")
                 ;
 
             manifest
                 .DefineScript("jQuery")
+                .SetUrl("/OrchardCore.Resources/Scripts/jquery-3.3.1.js", "/OrchardCore.Resources/Scripts/jquery-3.3.1.js")
                 .SetCdn("https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js", "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js")
                 .SetCdnIntegrity("sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT", "sha384-fJU6sGmyn07b+uD1nMk7/iSb4yvaowcueiQhfVgQuD98rfva8mcr1eSvjchfpMrH")
                 .SetVersion("3.3.1")
